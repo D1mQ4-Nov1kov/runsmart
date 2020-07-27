@@ -1,7 +1,7 @@
 *
     font-family: "Museo Sans Cyrl", sans-serif
 body
-    height: 2000px
+    min-height: 2000px
 .container
     max-width: 950px
     margin: 0 auto
@@ -12,6 +12,12 @@ body
         width: 300px
         height: 50px
         font-size: 16px
+.section__header
+    color: $text-color
+    font-size: 30px
+    font-weight: 700
+    text-align: center
+    text-transform: uppercase
 .promo
     min-height: 650px
     padding: 21px 0 93px 0
@@ -91,3 +97,33 @@ body
             color: #ffffff
             text-transform: uppercase
             text-decoration: underline
+.advantages
+    padding: 70px 0 80px 0
+    background-color: #f6f6f6
+    &__wrapper
+        display: flex
+        justify-content: space-around
+    &__item
+        margin-top: 65px
+        width: 250px
+        img
+            width: 70px
+            height: 70px
+            display: block
+            margin: 0 auto
+        .title
+            margin-top: 38px
+            color: $text-color
+            font-size: 18px
+            font-weight: 700
+            text-align: center
+        .descr
+            margin-top: 25px
+            color: $text-color
+            font-size: 14px
+            font-weight: 400
+            text-align: center
+            span
+                color: #ff0000
+                text-transform: uppercase
+                text-decoration: underline
